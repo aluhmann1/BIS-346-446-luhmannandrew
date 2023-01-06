@@ -8,8 +8,11 @@ Created on Fri Jan  6 07:19:22 2023
 @author: andrewluhmann3
 """
 
-print('Amount after 10 years:', 1000 * (1 + .07) ** 10)
+x = 1000 * (1 + .07) ** 10
+print(f"Amount after 30 years:' {x:.2f}")
 
-print('Amount after 20 years:', 1000 * (1 + .07) ** 20)
+y = 1000 * (1 + .07) ** 20
+print(f"Amount after 30 years:' {y:.2f}")
 
-print('Amount after 30 years:', 1000 * (1 + .07) ** 30)
+z = 1000 * (1 + .07) ** 30
+print(f"Amount after 30 years:' {z:.2f}")
