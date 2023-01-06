@@ -11,6 +11,7 @@ Created on Fri Jan  6 07:50:43 2023
 "Tortoise vs. the Hare"
 
 import random
+import time
 
 RACE_END = 70
 
@@ -77,6 +78,7 @@ while tortoise < RACE_END and hare < RACE_END:
     tortoise = move_tortoise(tortoise)
     print_positions(tortoise, hare)
     timer += 1
+    time.sleep(1)
 
 if tortoise >= hare:
     print('\nTORTOISE WINS!!! YAY!!!')
