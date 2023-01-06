@@ -70,7 +70,9 @@ hare = 1
 timer = 0
 
 print('ON YOUR MARK, GET SET')
+time.sleep(2)
 print('GO!!!!!')
+time.sleep(1)
 print("AND THEY'RE OFF!!!")
 
 while tortoise < RACE_END and hare < RACE_END: 
@@ -85,4 +87,4 @@ if tortoise >= hare:
 else:  # hare beat tortoise
     print('\nHare wins. Yuch!')
 
-print(f'TIME ELAPSED = {timer} seconds')
+print(f'TIME ELAPSED = {timer} seconds') 
