@@ -14,7 +14,7 @@ def euros(dollars):
     return 0.95 * dollars
 def canadian(dollars):
     return 1.36 * dollars
-
+# As per the instructiions, supposed to define A function.   -5
 print(f'{dollars} Dollars is equal to {pounds(dollars):.2f} British Pounds.')
 print(f'{dollars} Dollars is equal to {euros(dollars):.2f} Euros.')
 print(f'{dollars} Dollars is equal to {canadian(dollars):.2f} Canadian Dollars.')
